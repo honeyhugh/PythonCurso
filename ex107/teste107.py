@@ -1,4 +1,4 @@
-from ex107 import moeda
+import moeda
 
 p = float(input('Digite um valor R$'))
 print(f'A metade de {p} é igual a {moeda.metade(p)}.')
